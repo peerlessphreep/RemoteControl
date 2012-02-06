@@ -33,6 +33,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ *
+ * Activity to run on your android phone to provide some remote control
+ * of your desktop or laptop computer over a local area network.
+ */ 
 public class RemoteControlActivity extends Activity implements OnItemSelectedListener {
 	
 	private static final short PORT = 27027;
